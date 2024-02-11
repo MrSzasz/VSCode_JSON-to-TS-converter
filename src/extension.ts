@@ -12,7 +12,7 @@ const isJsonString = (str: string) => {
 
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand(
-    "json-to-ts.convertJSON",
+    "json-to-ts-converter.convertJSON",
     () => {
       const editor = vscode.window.activeTextEditor;
       const selection = editor?.selection;

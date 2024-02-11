@@ -1,7 +1,7 @@
 {
-  "name": "json-to-ts",
-  "displayName": "JSON to TS",
-  "description": "JSON to TS is an extension that converts JSON files to TypeScript interfaces, making them easier to work without leaving the editor",
+  "name": "json-to-ts-converter",
+  "displayName": "JSON to TS Converter",
+  "description": "JSON to TS Converter is an extension that converts JSON files to TypeScript interfaces, making them easier to work without leaving the editor",
   "publisher": "TomasLeandroLugo",
   "icon": "resources/icon.png",
   "keywords": [
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/MrSzasz/VSCode_JSON-to-TS.git"
+    "url": "https://github.com/MrSzasz/VSCode_JSON-to-TS-converter.git"
   },
   "version": "1.0.0",
   "engines": {
@@ -32,7 +32,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "json-to-ts.convertJSON",
+        "command": "json-to-ts-converter.convertJSON",
         "title": "Convert JSON to TS"
       }
     ],
@@ -40,7 +40,7 @@
       "editor/context": [
         {
           "when": "editorHasSelection && !editorHasMultipleSelection",
-          "command": "json-to-ts.convertJSON",
+          "command": "json-to-ts-converter.convertJSON",
           "group": "1_modification"
         }
       ]

@@ -1,6 +1,6 @@
-# JSON to TS
+# JSON to TS Converter
 
-JSON to TS is an extension that converts JSON files to TypeScript interfaces, making them easier to work without leaving the editor.
+_JSON to TS Converter_ is an extension that converts JSON files to TypeScript interfaces, making them easier to work without leaving the editor.
 
 ## Features
 
@@ -40,4 +40,4 @@ Initial release of the extension
 
 ---
 
-Enjoying the _JSON to TS_ extension? Share your feedback! Your support is greatly appreciated.
+Enjoying the _JSON to TS Converter_ extension? Share your feedback! Your support is greatly appreciated.
